@@ -1,0 +1,5 @@
+.container-products ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

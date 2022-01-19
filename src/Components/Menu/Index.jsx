@@ -1,4 +1,7 @@
 import './index.css'
+import React from 'React'
+import PropTypes from 'prop-types'
+import {FaSignInAlt, FaSignOutAlt} from 'react-icons/fa'
 
 export function Menu(props) {
   const {perfil} = props

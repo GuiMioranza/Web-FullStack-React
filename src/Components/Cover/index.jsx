@@ -1,6 +1,7 @@
 import { MdFirstPage } from 'react-icons/md'
 import './index.css'
-//import propTypes from 'prop-types'
+import propTypes from 'prop-types'
+import React from 'react'
 
 export function Cover({cor}) {
   const titulo = "Programando meu primeiro app React"

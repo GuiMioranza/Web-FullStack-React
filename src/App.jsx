@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Cover } from './components/Cover/index.jsx';
-import { Title } from './Components/Title/Index.jsx';
+import { Cover } from './Components/Cover/index.jsx';
+import { Title } from './Components/Title/index.jsx';
 import { Products } from './Components/Products/index.jsx';
 import { MdSearch } from 'react-icons/md';
-import { Menu } from './Components/Menu/Index.jsx';
+import { Menu } from './Components/Menu/index.jsx';
 
 class App extends React.Component {
   constructor() {

@@ -4,7 +4,7 @@ import { Cover } from './Components/Cover/index.jsx';
 import { Title } from './Components/Title/index.jsx';
 import { Products } from './Components/Products/index.jsx';
 import { MdSearch } from 'react-icons/md';
-import { Menu } from './Components/Menu/index.jsx';
+import { Menu } from './Components/Menu/index';
 
 class App extends React.Component {
   constructor() {
@@ -49,7 +49,7 @@ class App extends React.Component {
         <footer style={{backgroundColor:'steelblue'}}>
           <Title 
             tamanho={'md'}
-            texto="footer da pagina criada durante curso de Web FullStack"
+            texto="footer da pagina"
           />
         </footer>
 

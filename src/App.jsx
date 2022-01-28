@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Cover } from './Components/Cover/index.jsx';
-import { Title } from './Components/Title/index.jsx';
-import { Products } from './Components/Products/index.jsx';
+import { Cover } from './Components/Cover';
+import { Title } from './Components/Title';
+import { Products } from './Components/Products';
 import { MdSearch } from 'react-icons/md';
-import { Menu } from './Components/Menu/index';
+import { Menu } from './Components/Menu';
 
 class App extends React.Component {
   constructor() {
@@ -25,13 +25,27 @@ class App extends React.Component {
   render(){
     return (
       <>
+        {/*<CartaDeBaralho
+          naipe={'copas'}
+          valor={'Q'}
+          cor={'vermelha'}
+          carta={
+            naipe: 'copas',
+            numero: 'Q',
+            cor: 'vermelha',
+          }
+        }
+      /> */}
+
         <Menu
           perfil = {{
             nome: 'Fulano de Tal',
             avatarUrl: 'https://source.unsplash.com/random/?profile picture'
           }}
         />
+
         <Cover />
+        
         <Title 
           id="main-title"
           texto="Título da pagina" 
@@ -52,8 +66,6 @@ class App extends React.Component {
             texto="footer da pagina"
           />
         </footer>
-
-
       </>
   )}
 }

@@ -14,9 +14,7 @@ export class GithubProfile extends React.Component {
 
   const user = await response.json()
     this.setState({ user })
-
-    console.log(user)
-
+    //console.log(user)
     // console.log(response)
     // console.log(user)
     // console.log(user.name)

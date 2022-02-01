@@ -5,6 +5,8 @@ import { Title } from './Components/Title';
 import { Products } from './Components/Products';
 import { MdSearch } from 'react-icons/md';
 import { Menu } from './Components/Menu';
+import { Culinaria } from './Components/Culinary';
+import { GithubProfile } from './Components/GitHUbProfile';
 
 class App extends React.Component {
   constructor() {
@@ -25,6 +27,9 @@ class App extends React.Component {
   render(){
     return (
       <>
+
+        <GithubProfile />
+        {/*<Culinaria />*/}
         {/*<CartaDeBaralho
           naipe={'copas'}
           valor={'Q'}
@@ -37,7 +42,7 @@ class App extends React.Component {
         }
       /> */}
 
-        <Menu
+        {/*<Menu
           perfil = {{
             nome: 'Fulano de Tal',
             avatarUrl: 'https://source.unsplash.com/random/?profile picture'
@@ -53,19 +58,19 @@ class App extends React.Component {
           style={{color: 'green'}}
         />
         <Search />
-        {10*5}
+        {10*5}*/}
 
         {/* <strong>{this.lapis.nome}</strong>
         <p>{this.lapis.preco}</p> */}
 
-        <Products />
+        {/*<Products />
 
         <footer style={{backgroundColor:'steelblue'}}>
           <Title 
             tamanho={'md'}
             texto="footer da pagina"
           />
-        </footer>
+        </footer>*/}
       </>
   )}
 }

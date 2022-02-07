@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Styles/App.css';
 import { Cover } from './Components/Cover';
 import { Title } from './Components/Title';
 import { Products } from './Components/Products';
